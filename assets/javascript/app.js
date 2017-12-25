@@ -1,71 +1,71 @@
 var triviaQuestions = [{
-	question: "What is Sulley's full name?",
-	answerList: ["Michael J. Sullivan", "James P. Sullivan", "Sully Sullivan", "Jeff"],
-	answer: 1
-},{
-	question: "What kind of bug is Frances from 'A Bug's Life'?",
-	answerList: ["Ladybug", "Ant", "Grasshopper", "Caterpillar"],
-	answer: 0
-},{
-	question: "What's the name of Woody's boy?",
-	answerList: ["Andy", "Danny", "Max", "Sid"],
-	answer: 0
-},{
-	question: "Merida's mother changes into what after eating the enchanted cake?",
-	answerList: ["Dragon", "Witch", "Bear", "Will-o'-the-Wisp"],
+	question: "Agent Smith calls Neo 'Mr. Anderson'. But what is Mr. Anderson's first name?",
+	answerList: ["Michael.", "Johnathan.", "Thomas.", "James."],
 	answer: 2
 },{
-	question: "What precious cargo is Wall-E protecting?",
-	answerList: ["trash", "photos", "gold", "a plant"],
+	question: "We mostly saw Agent Smith do most of the talking for the agents. But what were the other agents' names though?",
+	answerList: ["Agent Cross and Agent Bourne.", "Agent Jones and Agent Brown.", "Agent Kennedy and Agent Redfield.", "The Matrix did not distinguish it's sentient programs."],
+	answer: 1
+},{
+	question: "Which member of the crew designed 'The woman in the red dress?",
+	answerList: ["Cypher.", "Tank.", "Morpheus.", "Mouse."],
 	answer: 3
 },{
-	question: "Which of the following is not an emotion showed in 'Inside Out'?",
-	answerList: ["Confusion", "Sadness", "Fear", "Disgust"],
+	question: "Before Neo got unplugged from the Matrix, who did he help take out their garbage?",
+	answerList: ["His Land Lady.", "His Grandmother.", "His Neighbor.", "His Roommate."],
 	answer: 0
 },{
-	question: "What is the name of Mr. Incredible's nemesis?",
-	answerList: ["Frozone", "Syndrome", "Mirage", "Elastigirl"],
-	answer: 1
-},{
-	question: "What is Nemo's mom's name?",
-	answerList: ["Pearl", "Deb", "Coral", "Dory"],
-	answer: 2
-},{
-	question: "What is the big race called in 'Cars'?",
-	answerList: ["Daytona 500", "Piston Cup", "Radiator Springs", "Route 66"],
-	answer: 1
-},{
-	question: "In 'Up', what is Russell trying to earn a badge for?",
-	answerList: ["Wild Wilderness Scouts", "Explorers of America", "Wilderness Explorer", "Boy Scouts"],
-	answer: 2
-},{
-	question: "From 'The Good Dinosaur,' what does Arlo call his pet?",
-	answerList: ["Spunky", "Spot", "Sparky", "Fido"],
-	answer: 1
-},{
-	question: "What fraternity does Mike Wazowski end up joining in college?",
-	answerList: ["Zeta Hiss Alpha", "Python Nu Kappa", "Roar Omega Roar", "Oozma Kappa"],
+	question: "When Neo went to visit the Oracle, he accidentally knocked over something in her kitchen. What was it?",
+	answerList: ["A flower pot.", "A spoon.", "A picture frame.", "A vase."],
 	answer: 3
 },{
-	question: "Which of the following ISN'T a phrase when you pull on Woody's drawstring?",
-	answerList: ["Reach for the sky!", "Ride like the wind, Bullseye!", "There's a snake in my boot!", "Somebody's poisoned the water hole!"],
+	question: "Mr. Anderson's first scene has him asleep at his desk listening to music with his headphones on. What brand was he wearing?",
+	answerList: ["Panasonic.", "Motorola.", "Samsung.", "Sony."],
+	answer: 0
+},{
+	question: "After meeting Trinity in person, Neo woke up late for work! By the way...where did he work?",
+	answerList: ["An umbrella corporation.", "Metacortex.", "Enron.", "IBM."],
 	answer: 1
 },{
-	question: "Who's your friend who like's to play...?",
-	answerList: ["Bong Bong, Bong Bong", "Ding Dong, Ding Dong", "Bing Bong, Bing Bong", "Sing Song, Sing Song"],
+	question: "What brand of phone did Morpheus mail Neo the first time they talked?",
+	answerList: ["Samsung.", "Motorola.", "Nokia.", "Blackberry."],
 	answer: 2
 },{
-	question: "Do you think it's odd that 'Ratatouille' takes place is Paris, but the two main characters don't have accents?",
-	answerList: ["Yes! So weird!", "They don't have accents?", "Nope!", "What's a Ratatouille?"],
+	question: "What bodily phenomenon gives evidence that there's a glitch or change in the Matrix?",
+	answerList: ["Presque Vu - feeling that something is on the tip of your tongue.", "Deja Visite - Unexplained knowledge of a new place.", "Deja Vu - a feeling of experiencing a new situation previously.", "Deja senti - feeling of already having felt something."],
+	answer: 2
+},{
+	question: "What is the first martial art form Neo learns?",
+	answerList: ["Kung Fu.", "Ju-Jitsu.", "Tae Kwon Do.", "Judo."],
+	answer: 1
+},{
+	question: "What organism does Agent Smith classify human beings as?",
+	answerList: ["A mammal.", "A virus.", "A microorgansim.", "An embryonic plague."],
+	answer: 1
+},{
+	question: "What helicopter does Trinity learn to fly on the spot?",
+	answerList: ["Bell OH-58.", "Bell UH-1.", "Bell ARH-70.", "Bell 212."],
+	answer: 3
+},{
+	question: "After saving Morpheus, Neo ran to apt 303 where there was an armed Agent Smith. How many times did Neo get shot before he flatlined?",
+	answerList: ["Nine.", "Eleven.", "Eight.", "Six."],
+	answer: 1
+},{
+	question: "Like Morpheus previously stated - Neo didn't have to dodge bullets in the end. How many bullets did Neo stop?",
+	answerList: ["Eleven.", "Thirteen.", "Twelve.", "Nine thousand."],
+	answer: 0
+},{
+	question: "When Neo met Trinity in person at the club - what song was playing in the background?",
+	answerList: ["Dragula.", "Clubbed to Death.", "Du Hast.", "Wake Up."],
 	answer: 0
 }];
-var search = ['sully+monsters+inc', 'bugs+life', 'toy+story+andy', 'brave+bear', 'wall-e+plant', 'inside+out+emotions', 'the+incredibles+nemesis', 'finding+nemo', 'lightning+mcqueen', 'up+russell', 'the+good+dinosaur', 'monsters+university', 'toy+story+woody','bing+bong','ratatouille'];
+var search = ['neo+anderson+matrix', 'matrix+agents', 'toy+story+andy', 'brave+bear', 'wall-e+plant', 'inside+out+emotions', 'the+incredibles+nemesis', 'finding+nemo', 'lightning+mcqueen', 'up+russell', 'the+good+dinosaur', 'monsters+university', 'toy+story+woody','bing+bong','ratatouille'];
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
-	correct: "Yes, that's right!",
-	incorrect: "No, that's not it.",
-	endTime: "Out of time!",
-	finished: "Alright! Let's see how well you did."
+	correct: "Correct. The intelligence of humans is proven.",
+	incorrect: "Incorrect. Only human.",
+	endTime: "Trying to 'Dodge This'?",
+	finished: "Dialing your operator..."
 }
 
 $('#startBtn').on('click', function(){
@@ -141,7 +141,7 @@ function answerPage(){
 	var rightAnswerText = triviaQuestions[currentQuestion].answerList[triviaQuestions[currentQuestion].answer];
 	var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
 	//giphy api
-	var giphyURL = "http://api.giphy.com/v1/gifs/search?q=pixar+" + search[currentQuestion] + "&limit=1&rating=g&api_key=dc6zaTOxFJmzC"
+	var giphyURL = "http://api.giphy.com/v1/gifs/search?q=the+matrix" + search[currentQuestion] + "&limit=1&rating=g&api_key=dc6zaTOxFJmzC"
 	$.ajax({url: giphyURL, method: 'GET'}).done(function(giphy){
 		var currentGif = giphy.data;
 		$.each(currentGif, function(index,value){
@@ -168,10 +168,10 @@ function answerPage(){
 	}
 	
 	if(currentQuestion == (triviaQuestions.length-1)){
-		setTimeout(scoreboard, 5000)
+		setTimeout(scoreboard, 3000)
 	} else{
 		currentQuestion++;
-		setTimeout(newQuestion, 5000);
+		setTimeout(newQuestion, 3000);
 	}	
 }
 
