@@ -59,7 +59,7 @@ var triviaQuestions = [{
 	answerList: ["Dragula.", "Clubbed to Death.", "Du Hast.", "Wake Up."],
 	answer: 0
 }];
-var search = ['neo+anderson+matrix', 'matrix+agents', 'toy+story+andy', 'brave+bear', 'wall-e+plant', 'inside+out+emotions', 'the+incredibles+nemesis', 'finding+nemo', 'lightning+mcqueen', 'up+russell', 'the+good+dinosaur', 'monsters+university', 'toy+story+woody','bing+bong','ratatouille'];
+var search = ['neo+anderson+matrix', 'agents+matrix', 'mouse+matrix', '303+matrix', 'oracle+matrix', 'follow+the+white+rabbit+matrix', 'metacortex+the+matrix', 'nokia+the+matrix', 'glitch+black+cat+matrix', 'morpheus+fighting+neo+matrix', 'captured+morpheus+matrix', 'helicopter+trinity+matrix', 'neo+smith+hallway+matrix','neo+stopping+bullets+matrix','neo+trinity+matrix'];
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
 	correct: "Correct. The intelligence of humans is proven.",
