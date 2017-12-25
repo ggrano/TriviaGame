@@ -59,7 +59,7 @@ var triviaQuestions = [{
 	answerList: ["Dragula.", "Clubbed to Death.", "Du Hast.", "Wake Up."],
 	answer: 0
 }];
-var search = ['neo+anderson+matrix', 'agents+matrix', 'mouse+matrix', '303+matrix', 'oracle+matrix', 'follow+the+white+rabbit+matrix', 'metacortex+the+matrix', 'nokia+the+matrix', 'glitch+black+cat+matrix', 'morpheus+fighting+neo+matrix', 'captured+morpheus+matrix', 'helicopter+trinity+matrix', 'neo+smith+hallway+matrix','neo+stopping+bullets+matrix','neo+trinity+matrix'];
+var search = ['the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix', 'the+matrix','the+matrix','the+matrix'];
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
 	correct: "Correct. The intelligence of humans is proven.",
@@ -141,7 +141,7 @@ function answerPage(){
 	var rightAnswerText = triviaQuestions[currentQuestion].answerList[triviaQuestions[currentQuestion].answer];
 	var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
 	//giphy api
-	var giphyURL = "http://api.giphy.com/v1/gifs/search?q=the+matrix" + search[currentQuestion] + "&limit=1&rating=g&api_key=dc6zaTOxFJmzC"
+	var giphyURL = "http://api.giphy.com/v1/gifs/search?q=the+matrix" + search[currentQuestion] + "&limit=15&rating=pg&api_key=dc6zaTOxFJmzC"
 	$.ajax({url: giphyURL, method: 'GET'}).done(function(giphy){
 		var currentGif = giphy.data;
 		$.each(currentGif, function(index,value){
@@ -187,5 +187,5 @@ function scoreboard(){
 	$('#unanswered').html("Unanswered: " + unanswered);
 	$('#startOverBtn').addClass('reset');
 	$('#startOverBtn').show();
-	$('#startOverBtn').html('Start Over?');
+	$('#startOverBtn').html('Reconnect?');
 }
